@@ -1,9 +1,9 @@
-import React from "react";
-import DataAreaContex from "../API.js/DataAreaContext";
-import "../style/SearchDOB.css";
+import React, { useContext } from "react";
+import DataAreaContext from "../API.js/DataAreaContext";
+// import "../style/SearchDOB.css";
 
 const SearchDOB = () => {
-    const context = useContext(DataAreaContex);
+    const context = useContext(DataAreaContext);
 
     return(
         <div className="searchbox">

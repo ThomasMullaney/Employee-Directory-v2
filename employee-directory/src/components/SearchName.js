@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useContext} from "react";
 import "../style/SearchName.css";
 import DataAreaContext from "../API.js/DataAreaContext";
 

@@ -1,3 +1,8 @@
 .header{
     background-color: wheat;
+    padding: 30px 0;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 5px solid #db1862;
+    margin-bottom: 10px;
 }

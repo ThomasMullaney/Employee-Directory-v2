@@ -10,7 +10,7 @@ const UserArea = () => {
     const [developerState, setDeveloperState] = useState({
         users: [],
         order: "descend",
-        filteredUsers =[],
+        filteredUsers: [],
         headings: [
             { name: "image", width: "10%", order: "descend" },
             { name: "name", width: "10%", order: "descend" },
@@ -48,7 +48,7 @@ const UserArea = () => {
                 } else if (heading === "dob") {
                     return a[heading].age - b[heading].age;
                 } else {
-                    return a[heading].localCompare(b[heading]);
+                    return a[heading].localeCompare(b[heading]);
                 }
             } else {
                 if (a[heading] === undefined) {
@@ -62,7 +62,7 @@ const UserArea = () => {
                 } else if (heading === "dob") {
                     return b[heading].age - a[heading].age;
                 } else {
-                    return b[heading].localCompare(a[heading]);
+                    return b[heading].localeCompare(a[heading]);
                 }
             }
         };
@@ -97,8 +97,9 @@ const UserArea = () => {
         API.getUsers().then(results => {
             console.log(results.data.results);
             setDeveloperState({
-                ...setDeveloperState,
-                users: results.data.results
+                ...developerState,
+                users: results.data.results,
+                filteredUsers: results.data.results
             });
         });
     }, []);

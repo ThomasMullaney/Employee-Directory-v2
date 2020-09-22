@@ -17,7 +17,7 @@ const UserBody = () => {
 
     return (
         <tbody>
-            {context.developerState.filteredUsers[0] !== udefined && context.developerState.filteredUsers[0].name !== undefined ? (
+            {context.developerState.filteredUsers[0] !== undefined && context.developerState.filteredUsers[0].name !== undefined ? (
                 context.developerState.filteredUsers.map(({ login, name, picture, phone, email, dob}) => {
                     return (
                         <tr key={login.uuid}>
