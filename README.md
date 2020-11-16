@@ -1,5 +1,5 @@
 # Employee-Directory-v2
-[![Generic badge](https://img.shields.io/badge/<SUBJECT>-<STATUS>-<COLOR>.svg)](https://shields.io/)
+
 <div>
     <h4>
     </a>
@@ -28,6 +28,15 @@
 
 ## Usage:
 ### The application is designed to allow an employee or manager to view an employee directory. When the user loads the page, a table of employees is displayed allowing the user to sort by name, phone, email or DOB. The user can also filter by name or DOB via the search fields.
+
+## Technologies:
+<ul>
+<li>HTML, CSS, Bootstrap</li>
+<li>React</li>
+<li>Javascript, jQuery</li>
+<li>Node.js, Express, Axios</li>
+<li>GitHub</li>
+</ul>
 
 ## License:
 ### [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
