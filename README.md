@@ -9,7 +9,23 @@
     </h4>
 </div>
 
+<br>
+</div>
+<p align="center"><font size="3">
+This is an employee directory application.</p>
+<div align="center"><a name="menu"></a>
+  <h4>
+    <a href="https://github.com/ThomasMullaney/Employee-Directory-v2">
+      Github Repository
+    </a>
+<span> | </span>
+<a href="https://thomasmullaney.github.io/Employee-Directory-v2/">
+      Github Pages
+    </a>
+  </h4>
+</div>
 
+![Screenshot of App](img/Capture.PNG)
 
 ## Description:
 ### A project creating a randomly generated employee database. Users are able to search for an employee by name or DOB, and sort results by multiple factors by clicking on the corresponding headers.
