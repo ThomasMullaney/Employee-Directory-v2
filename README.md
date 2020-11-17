@@ -40,7 +40,7 @@ This is an employee directory application.</p>
 6. [Questions](#questions) 
 
 ## Installation: 
-### npm install && npm start
+### npm install && npm start. note that you must npm start from opening the "employee-directory" folder, not "Employee-Directory-v2" folder.
 
 ## Usage:
 ### The application is designed to allow an employee or manager to view an employee directory. When the user loads the page, a table of employees is displayed allowing the user to sort by name, phone, email or DOB. The user can also filter by name or DOB via the search fields.
